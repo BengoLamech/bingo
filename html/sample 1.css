@@ -1,0 +1,87 @@
+body {
+    background-image: url("images/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 870px;
+    margin: 0% auto;
+    position: relative;
+}
+
+.container ul {
+    list-style: none;
+    margin-top: 2px;
+}
+
+.container ul li {
+    background-color: aqua;
+    border: 2px double rgb(255, 0, 191);
+    width: 170px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding: 2px;
+    font-family: fantasy;
+    font-size: 32;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.container ul li:hover {
+    background-color: rgb(19, 252, 97);
+}
+
+.container ul ul {
+    display: none;
+    margin-left: 12;
+}
+
+.container ul li:hover>ul {
+    display: block;
+}
+
+.container ul li:hover>ul li {
+    width: 280px;
+    height: 80px;
+}
+
+#con {
+    margin-top: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#con p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 24;
+}
+
+span {
+    color: aquamarine;
+}
+
+img {
+    bottom: 0px;
+    width: 450px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+#body1 {
+    background-image: url("images/tech.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+address {
+    text-transform: uppercase;
+    color: orange;
+    font-size: 34;
+}
